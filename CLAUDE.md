@@ -29,7 +29,7 @@ This repo must be PUBLIC before the first post: Instagram downloads every image 
 ## Status
 
 - [x] Code copied, repo name and review port adapted, tests pass (2026-10-26)
-- [x] Pushed to `facubarboza22/nicolas-scapusio` (still private)
+- [x] Pushed to `facubarboza22/nicolas-scapusio` (still private). Workflow `publish.yml` DISABLED on GitHub until the token exists (otherwise every run goes red for the missing `IG_TOKEN_EXPIRES_AT` and emails). Re-enable: `gh workflow enable publish.yml`
 - [ ] Account, niche, voice and who approves posts: ask the user
 - [ ] Meta app `nicolas-publisher` (Instagram API with Instagram Login), permissions `instagram_business_basic`, `instagram_business_content_publish`, `instagram_business_manage_insights`; the account accepts the tester invite
 - [ ] Token: GitHub secret `IG_ACCESS_TOKEN` + `.env`, repo variable `IG_TOKEN_EXPIRES_AT`; verify with `node scripts/ig.mjs whoami`
