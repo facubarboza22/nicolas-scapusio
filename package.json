@@ -1,0 +1,14 @@
+{
+  "name": "nicolas-scapusio",
+  "private": true,
+  "type": "module",
+  "description": "Instagram autopilot for Nicolás Scapusio's account (same system as gestaltparaelalma). The publisher needs no dependencies; Playwright is only for rendering slides and reels on the Mac.",
+  "scripts": {
+    "test": "node --test scripts/*.test.mjs",
+    "render": "node scripts/render.mjs",
+    "review": "node scripts/review.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
