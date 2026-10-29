@@ -43,7 +43,7 @@ Nicolás Scapusio, licenciado and teacher of Mathematics and Physics. Goal: new 
 ## Status
 
 - [x] Code copied, repo name and review port adapted, tests pass (2026-10-26)
-- [x] Pushed to `facubarboza22/nicolas-scapusio` (still private). Workflow `publish.yml` DISABLED on GitHub until the token exists (otherwise every run goes red for the missing `IG_TOKEN_EXPIRES_AT` and emails). Re-enable: `gh workflow enable publish.yml`
+- [x] Pushed to `facubarboza22/nicolas-scapusio`. Workflow `publish.yml` enabled 2026-10-29 (every 2 h).
 - [x] Niche and goal (2026-10-27). Brand proposed in `docs/marca.md`
 - [x] Instagram account @copernico.clases created, bio set (2026-10-27)
 - [ ] Profile photo: the logo for now (uploaded 2026-10-27), swap for a photo of Nicolás; who approves posts; country, levels, in person / online
@@ -51,8 +51,9 @@ Nicolás Scapusio, licenciado and teacher of Mathematics and Physics. Goal: new 
   - BUT Meta never showed "API setup with Instagram login" on this new app (only the Facebook-login setup, which needs a Facebook Page): a known Meta bug for apps created in Oct 2026 (github.com/ryanlaiyanip-ctrl/chatmany/issues/5). The app stays unused; @copernico.clases accepted its tester invite anyway.
 - [x] DECISION (user, 2026-10-29): publish through gestaltparaelalma's app `gestalt-publisher` (app ID `1563617255075951`, Instagram app ID `1112821461091196`) instead. A token belongs to one account, so both accounts can share the app; the risk is that deleting or breaking that app stops both. Tester invite accepted 2026-10-29. If Meta fixes the bug, move to `nicolas-publisher`.
 - [x] Token (2026-10-29): generated in the Meta dashboard (gestalt-publisher → Casos de uso → API de Instagram → Configuración de la API con el inicio de sesión de Instagram → "2. Genera identificadores de acceso" → "Generar identificador" on the copernico.clases row), saved as GitHub secret `IG_ACCESS_TOKEN` + `.env`, repo variable `IG_TOKEN_EXPIRES_AT` = 2026-12-28 (+ `.env`). Verified: @copernico.clases, `account_type` MEDIA_CREATOR, IG user ID `17841417723787916`, quota 100 per 24 h. **Expires ~2026-12-28 unless refreshed** (`node scripts/ig.mjs refresh`). Saving it needs the app's Terminal panel: the chat's `!` box can't take `read -s` input.
-- [ ] Repo made public
+- [x] Repo made public (2026-10-29)
 - [ ] cron-job.org second clock: new fine-grained token (Actions read/write, this repo only) + a job like "gestaltparaelalma publicar"
 - [x] Look (slide.html) and first reel prototype (2026-10-27)
 - [ ] Strategy and writing rules
+- Approver: the user gave the green light for the first reel (2026-10-29, after Sofía and Nico reviewed it)
 - [ ] First test post
