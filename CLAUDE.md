@@ -56,4 +56,5 @@ Nicolás Scapusio, licenciado and teacher of Mathematics and Physics. Goal: new 
 - [x] Look (slide.html) and first reel prototype (2026-10-27)
 - [ ] Strategy and writing rules
 - Approver: the user gave the green light for the first reel (2026-10-29, after Sofía and Nico reviewed it)
-- [ ] First test post
+- [x] First post (2026-10-29): the reel `queue/2026-10-29-seis-mas-cuatro-por-dos`, https://www.instagram.com/reel/DfFV7OGFM4L/ (approved by the user after Sofía and Nico reviewed it; launched by hand with `gh workflow run publish.yml`). First try failed: Instagram couldn't download the video from jsDelivr ("HTTP error code 504", jsDelivr had never fetched that 16 MB file at that commit). `scripts/ig.mjs` now downloads it once itself (`warmUp`) before creating the container.
+- Gotcha: `caption.txt` and `post.json` are written only on the first render; a later script change in `slides.json` does NOT update the caption. Check `caption.txt` before approving.
