@@ -1,0 +1,137 @@
+{
+  "theme": "mate",
+  "publishAt": "2026-11-02T19:00:00-03:00",
+  "note": "Primer reel (formato «pregunta rápida»), narrado con eleven_v3 (voz Ignacio, con emociones), cámara cinematográfica, subtítulos, efectos de sonido, sin música. Cuentas verificadas con node: 6 + 4 × 2 = 14, (6 + 4) × 2 = 20, 4 × 2 = 8, 6 + 8 = 14. Desafío 10 − 2 × (3 + 1) = 2 (opción B); distractores: (10 − 2) × 4 = 32 (A, restar primero) y 10 − 2 × 3 + 1 = 5 (C, ignorar el paréntesis). La respuesta se sube en historias.",
+  "caption": "6 + 4 × 2. ¿Te dio 20 o 14?\n\nSi te dio 20, sumaste primero. En las operaciones combinadas hay un orden: primero los paréntesis, después potencias y raíces, después multiplicaciones y divisiones, y al final sumas y restas.\n\nAhora vos: ¿cuánto da 10 − 2 × (3 + 1)? Dejá la letra (A, B o C) en los comentarios. La respuesta la subo en historias.\n\nSoy Nico, profe de Matemática y Física. Si estás preparando un escrito o un examen, escribime por mensaje directo y coordinamos una clase.\n\n#matematica #operacionescombinadas #liceo #clasesparticulares #profedematematica",
+  "reel": {
+    "cover": {
+      "kicker": "pregunta rápida",
+      "eq": [
+        {
+          "text": "6 + 4 × 2"
+        }
+      ],
+      "eqSize": 190,
+      "hand": "¿20 o 14?",
+      "handSize": 110
+    },
+    "scenes": [
+      {
+        "say": "[curious] ¿Cuánto da 6 más 4 por 2? ¿20... o 14?",
+        "kicker": "pregunta rápida",
+        "kickerAt": -1,
+        "eq": [
+          {
+            "at": -1,
+            "text": "6 + 4 × 2 = ?"
+          }
+        ],
+        "eqSize": 124,
+        "hand": "¿20 o 14?",
+        "handAt": "20",
+        "handSize": 96
+      },
+      {
+        "say": "[playful] Si te dio 20, tranqui: sumaste primero. 6 más 4, 10... por 2, 20. [serious] Pero la suma espera su turno.",
+        "kicker": "si te dio 20",
+        "eq": [
+          {
+            "at": "6",
+            "text": "6 + 4 = 10"
+          },
+          {
+            "at": "por",
+            "text": "10 × 2 = 20",
+            "mark": "bad",
+            "markAt": "Pero"
+          }
+        ],
+        "eqSize": 120,
+        "hand": "la suma espera su turno",
+        "handAt": "espera"
+      },
+      {
+        "say": "[confident] Mirá: primero va la multiplicación. 4 por 2... 8. Y recién ahí sumás: 6 más 8... [excited] ¡14!",
+        "kicker": "paso a paso",
+        "eq": [
+          {
+            "at": "multiplicación",
+            "text": "6 + [4 × 2]",
+            "note": "primero multiplicás"
+          },
+          {
+            "at": "8",
+            "text": "= 6 + 8"
+          },
+          {
+            "at": "14",
+            "text": "= 14",
+            "mark": "ok"
+          }
+        ],
+        "hold": 1.0
+      },
+      {
+        "say": "[confident] El orden: paréntesis, potencias y raíces, multiplicaciones y divisiones... y al final, sumas y restas.",
+        "title": "El orden, siempre:",
+        "size": 96,
+        "titleAt": 0,
+        "steps": [
+          "paréntesis",
+          "potencias y raíces",
+          "multiplicar y dividir",
+          "sumar y restar"
+        ],
+        "stepsAt": [
+          "paréntesis",
+          "potencias",
+          "multiplicaciones",
+          "sumas"
+        ]
+      },
+      {
+        "say": "[playful] Ahora vos. ¿Cuánto da esta? ¿A, B o C? Dejame la letra en los comentarios.",
+        "kicker": "ahora vos",
+        "eq": [
+          {
+            "at": "Cuánto",
+            "text": "10 − 2 × (3 + 1)"
+          }
+        ],
+        "eqSize": 100,
+        "options": [
+          {
+            "label": "A",
+            "text": "32"
+          },
+          {
+            "label": "B",
+            "text": "2"
+          },
+          {
+            "label": "C",
+            "text": "5"
+          }
+        ],
+        "optionsAt": [
+          "A",
+          "B",
+          "C"
+        ],
+        "hand": "comentá la letra ↓",
+        "handAt": "Dejame",
+        "handSize": 72
+      },
+      {
+        "say": "Soy Nico, profe de matemática. [warmly] Seguime para el próximo, y si querés clases... escribime.",
+        "title": "Un ejercicio nuevo *cada semana.*",
+        "size": 92,
+        "titleAt": 0,
+        "body": "Seguime para no perderte el próximo.\n\n**Clases particulares:** escribime por mensaje directo.",
+        "bodyAt": "Seguime",
+        "sign": true,
+        "signAt": "Nico"
+      }
+    ]
+  }
+}
