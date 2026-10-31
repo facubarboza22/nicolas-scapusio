@@ -61,25 +61,34 @@
       </div>`;
   }
 
-  /** Wrap every character (pen) or word (print) of el's text in its own span. */
+  /**
+   * Wrap every character (pen) or word (print) of el's text in its own span.
+   * A pen word's letters sit inside a .cw span so lines only break between words.
+   */
   function split(el, unit) {
     const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
     const nodes = [];
     while (walker.nextNode()) nodes.push(walker.currentNode);
+    const span = (cls, text) => {
+      const sp = document.createElement('span');
+      sp.className = cls;
+      sp.textContent = text;
+      return sp;
+    };
     for (const n of nodes) {
       if (n.parentElement.closest('svg') || n.parentElement.matches('.c, .wd')) continue;
       const frag = document.createDocumentFragment();
-      const parts = unit === 'char' ? [...n.textContent] : n.textContent.split(/(\s+)/);
-      for (const p of parts) {
+      for (const p of n.textContent.split(/(\s+)/)) {
         if (!p) continue;
-        if (unit === 'word' && /^\s+$/.test(p)) {
-          frag.append(p);
-          continue;
+        const space = /^\s+$/.test(p);
+        if (unit === 'word') frag.append(space ? p : span('wd', p));
+        else if (space) frag.append(...[...p].map((ch) => span('c', ch)));
+        else {
+          const word = document.createElement('span');
+          word.className = 'cw';
+          word.append(...[...p].map((ch) => span('c', ch)));
+          frag.append(word);
         }
-        const sp = document.createElement('span');
-        sp.className = unit === 'char' ? 'c' : 'wd';
-        sp.textContent = p;
-        frag.append(sp);
       }
       n.replaceWith(frag);
     }
