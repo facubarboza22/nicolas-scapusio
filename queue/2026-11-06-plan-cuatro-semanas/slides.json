@@ -1,0 +1,69 @@
+{
+  "theme": "mate",
+  "textSize": "large",
+  "publishAt": "2026-11-16T18:00:00-03:00",
+  "note": "Carrusel para guardar (7 placas): cómo prepararse para el examen de diciembre en 4 semanas, cerrando con la misma invitación que la promoción del 10/11 (escribir DICIEMBRE). Sale el 16/11, a unas 4 semanas de los exámenes de diciembre: CONFIRMAR CON NICOLÁS las fechas de examen de sus alumnos si quiere cambiar el número de semanas. Sin cuentas que verificar.",
+  "caption": "Cómo prepararte para el examen de diciembre en 4 semanas. Guardalo y arrancá hoy.\n\nSemana 1: juntá todo (programa, escritos, ejercicios) y marcá en rojo lo que no sabés hacer.\nSemana 2: empezá por los temas que más se repiten en los escritos y exámenes de otros años.\nSemana 3: ejercicios sin mirar la solución, y anotá en qué te equivocás.\nSemana 4: un simulacro con reloj, como si fuera el día del examen. Después repasá solo tus errores.\n\nY la noche antes: dormí. Estudiar de madrugada no suma.\n\nSi querés que armemos tu plan juntos, escribime DICIEMBRE por mensaje directo.\n\nSoy Nico, profe de Matemática y Física.\n\n#examenes #diciembre #comoestudiar #matematica #fisica #liceo #clasesparticulares",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "guardalo",
+      "title": "Tu examen de diciembre *en 4 semanas*",
+      "size": 120,
+      "hand": "un plan que funciona"
+    },
+    {
+      "layout": "note",
+      "title": "Juntá *todo*",
+      "hand": "semana 1",
+      "steps": [
+        "Programa, escritos y ejercicios del año.",
+        "Hacé la lista de temas.",
+        "Marcá en rojo los que no sabés hacer."
+      ]
+    },
+    {
+      "layout": "note",
+      "title": "Lo que *más pesa*",
+      "hand": "semana 2",
+      "steps": [
+        "Buscá escritos y exámenes de otros años.",
+        "Fijate qué temas se repiten.",
+        "Empezá por esos, y por tus temas en rojo."
+      ]
+    },
+    {
+      "layout": "note",
+      "title": "Ejercicios, *ejercicios*",
+      "hand": "semana 3",
+      "steps": [
+        "Resolvé sin mirar la solución.",
+        "Si te trabás, mirá solo el paso siguiente.",
+        "Anotá en qué te equivocaste."
+      ]
+    },
+    {
+      "layout": "note",
+      "title": "El *simulacro*",
+      "hand": "semana 4",
+      "steps": [
+        "Un examen entero, con reloj, como si fuera el día.",
+        "Corregilo.",
+        "Repasá solo tus errores."
+      ]
+    },
+    {
+      "layout": "big",
+      "bg": "soft",
+      "kicker": "la noche antes",
+      "title": "Dormí.",
+      "size": 200,
+      "body": "Estudiar de madrugada no suma. Llegar descansado, sí."
+    },
+    {
+      "layout": "cta",
+      "title": "¿Armamos *tu plan?*",
+      "body": "Escribime **DICIEMBRE** por mensaje directo, contame qué examen tenés y cuándo, y lo armamos juntos."
+    }
+  ]
+}
