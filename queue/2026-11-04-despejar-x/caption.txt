@@ -1,0 +1,14 @@
+Despejar x sin perderte, en 4 pasos. Guardalo para cuando te toque.
+
+La idea: lo que está más afuera de la x se va primero.
+
+1. Lo que suma, pasa restando: 3(x − 2) = 19 − 4 = 15
+2. Lo que multiplica, pasa dividiendo: x − 2 = 15 ÷ 3 = 5
+3. Lo que resta, pasa sumando: x = 5 + 2 = 7
+4. Verificá: 3(7 − 2) + 4 = 19 ✓
+
+Ahora vos: 2(x + 3) − 5 = 11. Dejá tu resultado en los comentarios. La respuesta la subo en historias.
+
+Soy Nico, profe de Matemática y Física. Si estás preparando un escrito o un examen, escribime por mensaje directo y coordinamos una clase.
+
+#matematica #ecuaciones #algebra #liceo #clasesparticulares #profedematematica
