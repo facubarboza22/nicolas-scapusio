@@ -1,0 +1,65 @@
+{
+  "theme": "mate",
+  "textSize": "large",
+  "publishAt": "2026-11-10T18:00:00-03:00",
+  "note": "Promoción: preparación para exámenes de diciembre (6 placas). La invitación es escribir DICIEMBRE por mensaje directo, así se sabe qué mensajes vienen de este post. CONFIRMAR CON NICOLÁS antes de aprobar: (1) si hay una oferta concreta (precio, pack de clases, descuento) para agregar en la placa 2 y en el texto; (2) si son presenciales, online o las dos, y para qué niveles (liceo, UTU, facultad); (3) si quiere decir «cupos limitados» (solo si es verdad). Sin números que verificar.",
+  "caption": "¿Te quedó Matemática o Física para diciembre? Tiene arreglo, y cuanto antes arranques, mejor.\n\nEstoy armando la preparación para los exámenes de diciembre:\n\n✏️ Clases particulares de Matemática y Física\n📅 Un plan semana a semana hasta el día del examen\n📝 Ejercicios tipo examen, corregidos uno por uno\n🧠 Empezamos por lo que más te cuesta\n\nPara arrancar, escribime DICIEMBRE por mensaje directo y contame qué examen tenés y cuándo. Vemos los temas y armamos el plan.\n\nSoy Nico, profe de Matemática y Física.\n\n#examenes #diciembre #matematica #fisica #liceo #clasesparticulares #profedematematica",
+  "slides": [
+    {
+      "layout": "cover",
+      "bg": "strong",
+      "kicker": "diciembre se viene",
+      "title": "¿Te quedó Matemática o Física *para diciembre?*",
+      "size": 108,
+      "hand": "tranqui: tiene arreglo"
+    },
+    {
+      "kicker": "preparación para exámenes",
+      "title": "Llegá al examen *sabiendo*",
+      "lines": [
+        "Clases particulares de **Matemática y Física**",
+        "Un **plan semana a semana** hasta el día del examen",
+        "**Ejercicios tipo examen**, corregidos uno por uno",
+        "Empezamos por **lo que más te cuesta**"
+      ]
+    },
+    {
+      "layout": "note",
+      "title": "Cómo *arrancamos*",
+      "hand": "en 3 pasos",
+      "steps": [
+        "Me escribís qué examen tenés y cuándo.",
+        "Vemos qué temas entran y dónde te trabás.",
+        "Armamos el plan y empezamos."
+      ]
+    },
+    {
+      "layout": "big",
+      "kicker": "un consejo",
+      "title": "Cuanto antes arranques, *menos se acumula.*",
+      "size": 96,
+      "body": "Un poco de práctica cada semana rinde más que estudiar todo junto la semana del examen."
+    },
+    {
+      "layout": "work",
+      "kicker": "lo que buscamos",
+      "eqSize": 110,
+      "eq": [
+        {
+          "text": "~nervios~",
+          "mark": "bad"
+        },
+        {
+          "text": "[confianza]",
+          "mark": "ok"
+        }
+      ],
+      "hand": "llegar al examen sabiendo qué hacer"
+    },
+    {
+      "layout": "cta",
+      "title": "Escribime *DICIEMBRE*",
+      "body": "por **mensaje directo**, contame qué examen tenés y cuándo, y armamos tu plan."
+    }
+  ]
+}
