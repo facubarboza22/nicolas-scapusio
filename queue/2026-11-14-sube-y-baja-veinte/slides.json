@@ -1,0 +1,147 @@
+{
+  "theme": "mate",
+  "publishAt": "2026-11-14T18:00:00-03:00",
+  "note": "Reel «pregunta rápida» (narrado): porcentajes que suben y bajan. Cuentas verificadas con node: 20% de 100 = 20 → 120; 20% de 120 = 24 → 120 − 24 = 96 (también 100 × 1,2 × 0,8 = 96). Desafío: $100, baja 50% (→ 50) y sube 50% (50% de 50 = 25 → 75); respuesta $75 (opción C); distractores $100 (A, «quedás igual») y $125 (B). La respuesta se sube en historias.",
+  "caption": "Una campera sale $100. Le suben el 20% y después le bajan el 20%. ¿Vuelve a $100?\n\nNo: queda en $96. El 20% que suben es de 100 (20, llega a 120), pero el 20% que bajan es de 120 (24). Y 120 − 24 = 96.\n\nLos porcentajes siempre son de algo: si cambia el número, cambia el porcentaje.\n\nAhora vos: si baja el 50% y después sube el 50%, ¿en cuánto queda? Dejá la letra (A, B o C) en los comentarios. La respuesta la subo en historias.\n\nSoy Nico, profe de Matemática y Física. Si estás preparando un escrito o un examen, escribime por mensaje directo y coordinamos una clase.\n\n#matematica #porcentajes #liceo #clasesparticulares #profedematematica",
+  "reel": {
+    "cover": {
+      "kicker": "pregunta rápida",
+      "eq": [
+        {
+          "text": "+20% −20%"
+        }
+      ],
+      "eqSize": 170,
+      "hand": "¿quedás igual?",
+      "handSize": 110
+    },
+    "scenes": [
+      {
+        "say": "[curious] Una campera sale 100 pesos. Le suben el 20%, y después le bajan el 20%. ¿Vuelve a 100?",
+        "kicker": "pregunta rápida",
+        "kickerAt": -1,
+        "eq": [
+          {
+            "at": -1,
+            "text": "$100"
+          },
+          {
+            "at": -1,
+            "text": "+20%"
+          },
+          {
+            "at": -1,
+            "text": "−20%"
+          }
+        ],
+        "eqSize": 140,
+        "hand": "¿vuelve a $100?",
+        "handAt": "Vuelve",
+        "handSize": 90
+      },
+      {
+        "say": "[playful] Parece que sí, ¿no? [serious] Pero no: queda en 96.",
+        "kicker": "parece que sí",
+        "eq": [
+          {
+            "at": "Parece",
+            "text": "~= $100~",
+            "mark": "bad",
+            "markAt": "no#2"
+          },
+          {
+            "at": "queda",
+            "text": "= $96",
+            "mark": "ok",
+            "markAt": "96"
+          }
+        ],
+        "eqSize": 150,
+        "hold": 1
+      },
+      {
+        "say": "[confident] Mirá: el 20% de 100 es 20. Sube a 120.",
+        "kicker": "primero sube",
+        "eq": [
+          {
+            "at": "Mirá",
+            "text": "20% de 100 = 20"
+          },
+          {
+            "at": "Sube",
+            "text": "100 + 20 = [120]",
+            "hlAt": "120"
+          }
+        ],
+        "eqSize": 104,
+        "hold": 0.5
+      },
+      {
+        "say": "[serious] Pero el 20% que bajan es de 120, no de 100. Y el 20% de 120 es 24. [excited] ¡120 menos 24, 96!",
+        "kicker": "después baja",
+        "eq": [
+          {
+            "at": "bajan",
+            "text": "20% de [120]",
+            "hlAt": "120"
+          },
+          {
+            "at": "Y",
+            "text": "= 24"
+          },
+          {
+            "at": "menos",
+            "text": "120 − 24 = 96",
+            "mark": "ok",
+            "markAt": "96"
+          }
+        ],
+        "eqSize": 110,
+        "hold": 1.2
+      },
+      {
+        "say": "[playful] Ahora vos: si baja el 50%, y después sube el 50%, ¿en cuánto queda? ¿A, B o C? Dejame la letra en los comentarios.",
+        "kicker": "ahora vos",
+        "eq": [
+          {
+            "at": "Ahora",
+            "text": "$100 −50% +50%"
+          }
+        ],
+        "eqSize": 104,
+        "options": [
+          {
+            "label": "A",
+            "text": "$100"
+          },
+          {
+            "label": "B",
+            "text": "$125"
+          },
+          {
+            "label": "C",
+            "text": "$75"
+          }
+        ],
+        "optionsAt": [
+          "A",
+          "B",
+          "C"
+        ],
+        "hand": "comentá la letra ↓",
+        "handAt": "Dejame",
+        "handSize": 72
+      },
+      {
+        "say": "Soy Nico, profe de matemática. [warmly] Seguime para el próximo, y si querés clases... escribime.",
+        "title": "Un ejercicio nuevo *cada semana.*",
+        "size": 92,
+        "titleAt": 0,
+        "body": "Seguime para no perderte el próximo.\n\n**Clases particulares:** escribime por mensaje directo.",
+        "bodyAt": "Seguime",
+        "sign": true,
+        "signAt": "Nico"
+      }
+    ]
+  }
+}
