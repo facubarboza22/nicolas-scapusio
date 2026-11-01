@@ -1,0 +1,13 @@
+5 errores que te bajan la nota (y cómo no cometerlos). Guardalo para repasar antes del escrito.
+
+1. (a + b)² no es a² + b²: falta el doble producto, 2ab.
+2. Si un número multiplica a la x, pasa dividiendo, no restando.
+3. La raíz de una suma no es la suma de las raíces: √(9 + 16) = 5, no 7.
+4. Solo se simplifica lo que multiplica a todo. En (x + 3)/3 el 3 no se tacha.
+5. Un menos delante del paréntesis cambia el signo de todo lo de adentro.
+
+¿Cuál te pasó alguna vez? Dejá el número en los comentarios.
+
+Soy Nico, profe de Matemática y Física. Si estás preparando un escrito o un examen, escribime por mensaje directo y coordinamos una clase.
+
+#matematica #algebra #liceo #examenes #clasesparticulares #profedematematica

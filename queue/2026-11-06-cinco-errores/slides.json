@@ -1,0 +1,111 @@
+{
+  "theme": "mate",
+  "textSize": "large",
+  "publishAt": "2026-11-06T18:00:00-03:00",
+  "note": "Carrusel para guardar (7 placas): 5 errores típicos, cada uno tachado ✗ y corregido ✓. Cuentas verificadas con node: (a + b)² con a = 2, b = 3 da 25 = 4 + 12 + 9, y a² + b² da 13; 2x = 10 → x = 10 ÷ 2 = 5 (10 − 2 = 8 no cumple: 2 · 8 = 16); √(9 + 16) = √25 = 5 y √9 + √16 = 7; (x + 3)/3 = x/3 + 1 probado con x = 0, 3 y 6 (con x = 3 da 2, no 3); 5 − (2 − 1) = 5 − 2 + 1 = 4 y 5 − 2 − 1 = 2.",
+  "caption": "5 errores que te bajan la nota (y cómo no cometerlos). Guardalo para repasar antes del escrito.\n\n1. (a + b)² no es a² + b²: falta el doble producto, 2ab.\n2. Si un número multiplica a la x, pasa dividiendo, no restando.\n3. La raíz de una suma no es la suma de las raíces: √(9 + 16) = 5, no 7.\n4. Solo se simplifica lo que multiplica a todo. En (x + 3)/3 el 3 no se tacha.\n5. Un menos delante del paréntesis cambia el signo de todo lo de adentro.\n\n¿Cuál te pasó alguna vez? Dejá el número en los comentarios.\n\nSoy Nico, profe de Matemática y Física. Si estás preparando un escrito o un examen, escribime por mensaje directo y coordinamos una clase.\n\n#matematica #algebra #liceo #examenes #clasesparticulares #profedematematica",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "antes del escrito",
+      "title": "5 errores que te *bajan la nota*",
+      "size": 128,
+      "hand": "guardalo para repasar"
+    },
+    {
+      "layout": "work",
+      "kicker": "error 1",
+      "title": "El cuadrado de una suma",
+      "eqSize": 74,
+      "eq": [
+        {
+          "text": "~(a + b)² = a² + b²~",
+          "mark": "bad"
+        },
+        {
+          "text": "(a + b)² = a² [+ 2ab] + b²",
+          "mark": "ok",
+          "note": "falta el doble producto"
+        }
+      ],
+      "hand": "(2 + 3)² = 25, no 13"
+    },
+    {
+      "layout": "work",
+      "kicker": "error 2",
+      "title": "El que multiplica, pasa *dividiendo*",
+      "eqSize": 96,
+      "eq": [
+        {
+          "text": "2x = 10"
+        },
+        {
+          "text": "~x = 10 − 2~",
+          "mark": "bad"
+        },
+        {
+          "text": "x = 10 ÷ 2 = 5",
+          "mark": "ok"
+        }
+      ],
+      "hand": "2x es 2 por x: lo contrario de multiplicar es dividir"
+    },
+    {
+      "layout": "work",
+      "kicker": "error 3",
+      "title": "La raíz no se reparte en la suma",
+      "eqSize": 84,
+      "eq": [
+        {
+          "text": "~√(9 + 16) = 3 + 4~",
+          "mark": "bad"
+        },
+        {
+          "text": "√(9 + 16) = √25 = 5",
+          "mark": "ok",
+          "note": "primero lo de adentro"
+        }
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "error 4",
+      "title": "Tachar lo que *no se puede*",
+      "eqSize": 96,
+      "eq": [
+        {
+          "text": "~(x + 3) / 3 = x~",
+          "mark": "bad"
+        },
+        {
+          "text": "(x + 3) / 3 = x/3 + 1",
+          "mark": "ok",
+          "note": "el 3 divide a todo"
+        }
+      ],
+      "hand": "solo se simplifica lo que multiplica"
+    },
+    {
+      "layout": "work",
+      "kicker": "error 5",
+      "title": "El menos delante del paréntesis",
+      "eqSize": 74,
+      "eq": [
+        {
+          "text": "~5 − (2 − 1) = 5 − 2 − 1~",
+          "mark": "bad"
+        },
+        {
+          "text": "5 − (2 − 1) = 5 − 2 [+ 1] = 4",
+          "mark": "ok",
+          "note": "el menos cambia todos los signos"
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "title": "¿Cuál te pasó *alguna vez?*",
+      "body": "Dejá el número en los comentarios.\n\nY si tenés escrito o examen, **escribime por mensaje directo**: lo preparamos juntos."
+    }
+  ]
+}
