@@ -1,0 +1,67 @@
+{
+  "theme": "mate",
+  "textSize": "large",
+  "publishAt": "2026-11-03T18:00:00-03:00",
+  "note": "Presentación de Nico, versión 2 (carrusel, 6 placas). Rehecha el 2026-11-01 después del rechazo de la v1 («Copérnico puso al Sol en el centro» sonaba soberbio): más profesional y sutil, sin metáforas. Datos que dio Facundo: Licenciado en Marketing, profesor, docente en la UDE, su vocación es enseñar, apoyar y ayudar; enseña de una forma diferente, adaptada a cada persona; todos podemos aprender a nuestra manera. Números verificados con script (node, 2026-11-01): 15 + 15 + 15 + 15 = 60, 10 × 4 + 5 × 4 = 60, 15 × 2 × 2 = 60 ✓. CONFIRMAR CON NICOLÁS: que esté bien decir «docente en la UDE» y que la placa 5 (cómo son las clases) describa cómo da clase de verdad. v2.1 (2026-11-01, Facundo): lenguaje inclusivo os/as, UDE en mayúsculas, sin «me podés decir Nico», placa 2 dice «Docente en la UDE» y «Profesor particular de Matemática y Física».",
+  "caption": "Mucho gusto, soy Nicolás Scapusio, Nico para mis alumnos/as. Soy Licenciado en Marketing, docente en la UDE y profesor particular de Matemática y Física.\n\nMi vocación es enseñar, apoyar y ayudar. Y me gusta hacerlo de una forma diferente: cada persona entiende a su manera, así que la explicación se adapta a quien tengo enfrente, no al revés.\n\nEstoy convencido de que todos/as podemos aprender. A veces solo falta encontrar el camino que funciona para vos.\n\nEn esta cuenta vas a encontrar ejercicios resueltos paso a paso, errores comunes y desafíos para practicar.\n\nSi tenés un escrito, un parcial o un examen en diciembre, escribime por mensaje directo y lo vemos juntos/as.\n\n#matematica #fisica #clasesparticulares #profedematematica #liceo #examenes",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "mucho gusto",
+      "title": "Todos/as podemos aprender. *Cada uno/a a su manera.*",
+      "size": 104,
+      "hand": "soy Nico, profe de Mate y Física"
+    },
+    {
+      "kicker": "quién soy",
+      "title": "Nicolás Scapusio",
+      "lines": [
+        "**Licenciado en Marketing**",
+        "**Docente** en la UDE",
+        "**Profesor particular** de Matemática y Física"
+      ]
+    },
+    {
+      "layout": "big",
+      "bg": "strong",
+      "kicker": "mi vocación",
+      "title": "Enseñar, *apoyar* y ayudar.",
+      "size": 120,
+      "body": "Y hacerlo de una forma diferente: adaptada a cada persona."
+    },
+    {
+      "layout": "work",
+      "kicker": "un mismo resultado",
+      "title": "Hay más de *un camino*",
+      "eqSize": 92,
+      "eq": [
+        {
+          "text": "15 + 15 + 15 + 15 = [60]"
+        },
+        {
+          "text": "10 × 4 + 5 × 4 = [60]"
+        },
+        {
+          "text": "15 × 2 × 2 = [60]",
+          "mark": "ok"
+        }
+      ],
+      "body": "Con aprender pasa lo mismo. Mi trabajo es encontrar **el camino que funciona para vos.**"
+    },
+    {
+      "kicker": "cómo son mis clases",
+      "title": "Clases *a tu medida*",
+      "lines": [
+        "Primero entiendo cómo pensás",
+        "Si una explicación no sirve, busco otra",
+        "Vamos a tu ritmo, sin apuro",
+        "Practicamos con ejercicios de examen"
+      ]
+    },
+    {
+      "layout": "cta",
+      "title": "¿Lo *hablamos?*",
+      "body": "Si tenés un escrito, un parcial o un examen en diciembre, **escribime por mensaje directo** y lo vemos juntos/as."
+    }
+  ]
+}
