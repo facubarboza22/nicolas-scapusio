@@ -1,0 +1,95 @@
+{
+  "theme": "fisica",
+  "publishAt": "2026-11-08T18:00:00-03:00",
+  "note": "Primer reel de Física (tema naranja), «pregunta rápida» narrado: pasar de km/h a m/s. Cuentas verificadas con node: 1 km = 1000 m, 1 h = 3600 s; 72 km/h = 72000 m en 3600 s = 20 m/s; 72 ÷ 3,6 = 20; 3600 ÷ 1000 = 3,6; el error típico 72 ÷ 60 = 1,2. Desafío 108 km/h = 108 ÷ 3,6 = 30 m/s (opción B); distractores 1,8 (A, dividir entre 60) y 388,8 (C, multiplicar por 3,6). La respuesta se sube en historias.",
+  "caption": "72 km/h. ¿Cuántos m/s son?\n\nSi dividiste entre 60 y te dio 1,2, pensalo así: a 72 km/h, en un segundo avanzás mucho más que un metro.\n\nUn kilómetro son 1000 metros y una hora son 3600 segundos. Entonces 72 km/h son 72000 m en 3600 s: 20 m/s.\n\nEl atajo: de km/h a m/s, dividís entre 3,6 (porque 3600 ÷ 1000 = 3,6). 72 ÷ 3,6 = 20.\n\nAhora vos: 108 km/h, ¿cuántos m/s son? Dejá la letra (A, B o C) en los comentarios. La respuesta la subo en historias.\n\nSoy Nico, profe de Matemática y Física. Si estás preparando un escrito o un examen, escribime por mensaje directo y coordinamos una clase.\n\n#fisica #cinematica #unidades #liceo #clasesparticulares",
+  "reel": {
+    "cover": {
+      "kicker": "pregunta rápida",
+      "eq": [{ "text": "72 km/h" }],
+      "eqSize": 190,
+      "hand": "¿cuántos m/s?",
+      "handSize": 110
+    },
+    "scenes": [
+      {
+        "say": "[curious] 72 kilómetros por hora. ¿Cuántos metros por segundo son?",
+        "kicker": "pregunta rápida",
+        "kickerAt": -1,
+        "eq": [{ "at": -1, "text": "72 km/h = ? m/s" }],
+        "eqSize": 110,
+        "hand": "¿cuántos m/s?",
+        "handAt": "metros",
+        "handSize": 96
+      },
+      {
+        "say": "[playful] Si dividiste entre 60 y te dio uno coma dos... [serious] pensalo: a 72 por hora, en un segundo avanzás mucho más que un metro.",
+        "kicker": "si te dio 1,2",
+        "eq": [
+          { "at": "dividiste", "text": "~72 ÷ 60 = 1,2~", "mark": "bad", "markAt": "pensalo" }
+        ],
+        "eqSize": 120,
+        "hand": "1 metro por segundo es caminar lento",
+        "handAt": "segundo",
+        "hold": 1
+      },
+      {
+        "say": "[confident] Mirá: un kilómetro son 1000 metros. Y una hora son 3600 segundos.",
+        "kicker": "las unidades",
+        "eq": [
+          { "at": "kilómetro", "text": "1 km = [1000 m]", "hlAt": "1000" },
+          { "at": "hora", "text": "1 h = [3600 s]", "hlAt": "3600" }
+        ],
+        "eqSize": 130,
+        "hold": 0.6
+      },
+      {
+        "say": "[confident] Entonces, 72 kilómetros son 72000 metros, en 3600 segundos. Dividís... [excited] ¡y da 20 metros por segundo!",
+        "kicker": "entonces",
+        "eq": [
+          { "at": "Entonces", "text": "72000 ÷ 3600" },
+          { "at": "da", "text": "= 20 m/s", "mark": "ok", "markAt": "segundo" }
+        ],
+        "eqSize": 120,
+        "hold": 1
+      },
+      {
+        "say": "[playful] El atajo: de kilómetros por hora a metros por segundo, dividís entre tres coma seis. 72 entre tres coma seis... 20.",
+        "kicker": "el atajo",
+        "eq": [
+          { "at": "atajo", "text": "km/h [÷ 3,6] → m/s", "hlAt": "dividís" },
+          { "at": "72", "text": "72 ÷ 3,6 = 20", "mark": "ok", "markAt": "20" }
+        ],
+        "eqSize": 110,
+        "hand": "porque 3600 ÷ 1000 = 3,6",
+        "handAt": "20",
+        "hold": 1.2
+      },
+      {
+        "say": "[playful] Ahora vos: 108 kilómetros por hora. ¿Cuántos metros por segundo? ¿A, B o C? Dejame la letra en los comentarios.",
+        "kicker": "ahora vos",
+        "eq": [{ "at": "108", "text": "108 km/h = ? m/s" }],
+        "eqSize": 104,
+        "options": [
+          { "label": "A", "text": "1,8" },
+          { "label": "B", "text": "30" },
+          { "label": "C", "text": "388,8" }
+        ],
+        "optionsAt": ["A", "B", "C"],
+        "hand": "comentá la letra ↓",
+        "handAt": "Dejame",
+        "handSize": 72
+      },
+      {
+        "say": "Soy Nico, profe de física y matemática. [warmly] Seguime para el próximo, y si querés clases... escribime.",
+        "title": "Un ejercicio nuevo *cada semana.*",
+        "size": 92,
+        "titleAt": 0,
+        "body": "Seguime para no perderte el próximo.\n\n**Clases particulares:** escribime por mensaje directo.",
+        "bodyAt": "Seguime",
+        "sign": true,
+        "signAt": "Nico"
+      }
+    ]
+  }
+}

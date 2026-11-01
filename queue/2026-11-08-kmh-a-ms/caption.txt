@@ -1,0 +1,13 @@
+72 km/h. ¿Cuántos m/s son?
+
+Si dividiste entre 60 y te dio 1,2, pensalo así: a 72 km/h, en un segundo avanzás mucho más que un metro.
+
+Un kilómetro son 1000 metros y una hora son 3600 segundos. Entonces 72 km/h son 72000 m en 3600 s: 20 m/s.
+
+El atajo: de km/h a m/s, dividís entre 3,6 (porque 3600 ÷ 1000 = 3,6). 72 ÷ 3,6 = 20.
+
+Ahora vos: 108 km/h, ¿cuántos m/s son? Dejá la letra (A, B o C) en los comentarios. La respuesta la subo en historias.
+
+Soy Nico, profe de Matemática y Física. Si estás preparando un escrito o un examen, escribime por mensaje directo y coordinamos una clase.
+
+#fisica #cinematica #unidades #liceo #clasesparticulares
