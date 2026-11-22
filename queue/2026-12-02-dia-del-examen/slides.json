@@ -1,0 +1,51 @@
+{
+  "theme": "mate",
+  "textSize": "large",
+  "publishAt": "2026-12-02T18:00:00-03:00",
+  "note": "Carrusel checklist + promoción (7 placas): el día del examen. Sin cuentas. Promoción: «la primera hora es sin costo» y escribir PLAN (pedido del usuario 2026-11-22; confirmar con Nicolás hasta cuándo vale).",
+  "caption": "Checklist para el día del examen (para no perder puntos tontos). Guardalo.\n\n🎒 En la mochila: calculadora con pilas, lápiz, goma, regla, birome, cédula y agua.\n👀 Antes de escribir: leé todo el examen y marcá lo que sabés hacer seguro.\n✅ Empezá por lo que sabés: sumás puntos y se van los nervios.\n⏭️ Si te trabás, pasá al siguiente y volvé al final.\n🔍 Los últimos minutos: verificá los resultados (reemplazá la x, mirá las unidades).\n\n¿Todavía no arrancaste? Estás a tiempo: escribime PLAN por mensaje directo y armamos un plan para tu fecha. La primera hora es sin costo.\n\nSoy Nico, profe de Matemática y Física.\n\n#examenes #diciembre #matematica #fisica #liceo #clasesparticulares #profedematematica",
+  "slides": [
+    {
+      "layout": "cover",
+      "bg": "strong",
+      "kicker": "el día del examen",
+      "title": "Checklist para *no perder puntos*",
+      "size": 112,
+      "hand": "guardalo →"
+    },
+    {
+      "kicker": "en la mochila",
+      "title": "Qué *llevar*",
+      "lines": [
+        "**Calculadora** con pilas o cargada",
+        "Lápiz, goma, regla y **birome**",
+        "**Cédula** y agua"
+      ]
+    },
+    {
+      "kicker": "antes de escribir",
+      "title": "Leé *todo* el examen",
+      "body": "Marcá los ejercicios que sabés hacer seguro."
+    },
+    {
+      "kicker": "el orden",
+      "title": "Empezá por *lo que sabés*",
+      "body": "Sumás puntos rápido y se van los nervios. Lo difícil, después."
+    },
+    {
+      "kicker": "si te trabás",
+      "title": "Pasá al *siguiente*",
+      "body": "No te quedes clavado/a en uno. Volvé al final con la cabeza fresca."
+    },
+    {
+      "kicker": "los últimos minutos",
+      "title": "Verificá *los resultados*",
+      "body": "Reemplazá la x en la ecuación. En Física, mirá las unidades. Ahí se recuperan puntos."
+    },
+    {
+      "layout": "cta",
+      "title": "¿Todavía *no arrancaste?*",
+      "body": "Estás a tiempo. **Escribime PLAN** por mensaje directo y armamos un plan para tu fecha.\n\nLa **primera hora es sin costo**."
+    }
+  ]
+}
