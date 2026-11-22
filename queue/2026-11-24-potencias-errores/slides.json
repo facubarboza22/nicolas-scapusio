@@ -1,0 +1,89 @@
+{
+  "theme": "mate",
+  "textSize": "large",
+  "publishAt": "2026-11-24T18:00:00-03:00",
+  "note": "Carrusel para guardar (6 placas): 4 errores con potencias. Verificado con node: 2³·2² = 32 = 2⁵ (2⁶ = 64, 4⁵ = 1024); (2³)² = 64 = 2⁶ (2⁵ = 32); 2⁰ = 1; 2⁻³ = 0,125 = 1/8. Promoción: «la primera hora es sin costo» y escribir PLAN (pedido del usuario 2026-11-22; confirmar con Nicolás hasta cuándo vale).",
+  "caption": "4 errores con potencias que te bajan la nota. Guardalo para repasar antes del escrito.\n\n1. Al multiplicar con la misma base, la base no cambia: 2³ · 2² = 2⁵ = 32 (no 4⁵).\n2. Potencia de potencia: los exponentes se multiplican: (2³)² = 2⁶ = 64.\n3. Todo número (menos el 0) elevado a 0 da 1: 2⁰ = 1.\n4. El exponente negativo no hace negativo al número: 2⁻³ = 1/8.\n\n¿Cuál te pasó alguna vez? Dejá el número en los comentarios.\n\nSoy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.\n\n#matematica #potencias #liceo #examenes #clasesparticulares #profedematematica",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "antes del escrito",
+      "title": "4 errores con *potencias*",
+      "size": 128,
+      "hand": "guardalo para repasar"
+    },
+    {
+      "layout": "work",
+      "kicker": "error 1",
+      "title": "Multiplicar: la base *no cambia*",
+      "eqSize": 96,
+      "eq": [
+        {
+          "text": "~2³ · 2² = 4⁵~",
+          "mark": "bad"
+        },
+        {
+          "text": "2³ · 2² = [2⁵] = 32",
+          "mark": "ok",
+          "note": "misma base: se suman los exponentes"
+        }
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "error 2",
+      "title": "Potencia de potencia: se *multiplican*",
+      "eqSize": 100,
+      "eq": [
+        {
+          "text": "~(2³)² = 2⁵~",
+          "mark": "bad"
+        },
+        {
+          "text": "(2³)² = [2⁶] = 64",
+          "mark": "ok",
+          "note": "3 · 2 = 6"
+        }
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "error 3",
+      "title": "Elevado a cero *no da cero*",
+      "eqSize": 120,
+      "eq": [
+        {
+          "text": "~2⁰ = 0~",
+          "mark": "bad"
+        },
+        {
+          "text": "2⁰ = [1]",
+          "mark": "ok"
+        }
+      ],
+      "hand": "todo número (menos el 0) elevado a 0 da 1"
+    },
+    {
+      "layout": "work",
+      "kicker": "error 4",
+      "title": "El exponente negativo *no hace negativo*",
+      "eqSize": 110,
+      "eq": [
+        {
+          "text": "~2⁻³ = −8~",
+          "mark": "bad"
+        },
+        {
+          "text": "2⁻³ = [1/8]",
+          "mark": "ok",
+          "note": "es 1 ÷ 2³"
+        }
+      ]
+    },
+    {
+      "layout": "cta",
+      "title": "¿Cuál te pasó *alguna vez?*",
+      "body": "Dejá el número en los comentarios.\n\nY si tenés escrito o examen, **escribime PLAN** por mensaje directo: la **primera hora es sin costo**."
+    }
+  ]
+}

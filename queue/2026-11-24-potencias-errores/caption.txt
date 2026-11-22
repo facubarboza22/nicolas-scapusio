@@ -1,0 +1,12 @@
+4 errores con potencias que te bajan la nota. Guardalo para repasar antes del escrito.
+
+1. Al multiplicar con la misma base, la base no cambia: 2³ · 2² = 2⁵ = 32 (no 4⁵).
+2. Potencia de potencia: los exponentes se multiplican: (2³)² = 2⁶ = 64.
+3. Todo número (menos el 0) elevado a 0 da 1: 2⁰ = 1.
+4. El exponente negativo no hace negativo al número: 2⁻³ = 1/8.
+
+¿Cuál te pasó alguna vez? Dejá el número en los comentarios.
+
+Soy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.
+
+#matematica #potencias #liceo #examenes #clasesparticulares #profedematematica
