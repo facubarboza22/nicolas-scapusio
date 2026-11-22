@@ -1,0 +1,47 @@
+{
+  "theme": "mate",
+  "textSize": "large",
+  "publishAt": "2026-11-26T18:00:00-03:00",
+  "note": "Carrusel de estudio + promoción (7 placas): cómo usar las dos semanas antes del examen. Días: 1–2, 3–9, 10–12, 13 y 14 = 14 días (contado). Sin otras cuentas. Promoción: «la primera hora es sin costo» y escribir PLAN (pedido del usuario 2026-11-22; confirmar con Nicolás hasta cuándo vale).",
+  "caption": "¿Te quedan dos semanas para el examen? Así las usaría yo. Guardalo.\n\n📋 Días 1 y 2: la lista de temas. Al lado de cada uno: lo sé, más o menos, no lo sé.\n🎯 Días 3 a 9: primero lo que más te cuesta. Un tema por día, con ejercicios.\n⏱️ Días 10 a 12: ejercicios tipo examen, con reloj y sin mirar la teoría.\n🔁 Día 13: volvé a hacer los que te salieron mal.\n😴 La noche antes: nada nuevo. Repasá y dormí.\n\n¿Querés el plan hecho para tu examen? Escribime PLAN por mensaje directo, contame qué examen tenés y cuándo, y lo armamos juntos/as. La primera hora es sin costo.\n\nSoy Nico, profe de Matemática y Física.\n\n#examenes #diciembre #matematica #fisica #liceo #tecnicasdeestudio #clasesparticulares",
+  "slides": [
+    {
+      "layout": "cover",
+      "bg": "strong",
+      "kicker": "se viene el examen",
+      "title": "Cómo estudiar las *dos semanas antes*",
+      "size": 112,
+      "hand": "guardalo →"
+    },
+    {
+      "kicker": "días 1 y 2",
+      "title": "Hacé la *lista de temas*",
+      "body": "Todo lo que entra. Al lado de cada tema: ✓ lo sé, ? más o menos, ✗ no lo sé."
+    },
+    {
+      "kicker": "días 3 a 9",
+      "title": "Empezá por *lo que más te cuesta*",
+      "body": "Los ✗ primero. Un tema por día, haciendo ejercicios, no solo leyendo."
+    },
+    {
+      "kicker": "días 10 a 12",
+      "title": "Ejercicios *tipo examen*",
+      "body": "Con reloj y sin mirar la teoría. Después corregí cada error y anotá por qué te equivocaste."
+    },
+    {
+      "kicker": "día 13",
+      "title": "Volvé a *tus errores*",
+      "body": "Rehacé los ejercicios que te salieron mal. Ahí están los puntos que te faltan."
+    },
+    {
+      "kicker": "la noche antes",
+      "title": "Nada nuevo. *Dormí.*",
+      "body": "Repasá tu lista y descansá: llegar descansado/a también suma."
+    },
+    {
+      "layout": "cta",
+      "title": "¿Querés el plan *hecho para vos?*",
+      "body": "**Escribime PLAN** por mensaje directo, contame qué examen tenés y cuándo, y lo armamos juntos/as.\n\nLa **primera hora es sin costo**."
+    }
+  ]
+}
