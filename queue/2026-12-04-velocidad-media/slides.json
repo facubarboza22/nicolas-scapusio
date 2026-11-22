@@ -1,0 +1,145 @@
+{
+  "theme": "fisica",
+  "publishAt": "2026-12-04T18:00:00-03:00",
+  "note": "Reel «pregunta rápida» de Física (narrado): velocidad media no es el promedio. Verificado con node: 60 km a 60 km/h = 1 h, 60 km a 30 km/h = 2 h, 120 km ÷ 3 h = 40 km/h (no 45). Vale para cualquier distancia (misma ida y vuelta). Desafío: ida 40, vuelta 60 → con 120 km: 3 h + 2 h, 240 ÷ 5 = 48 km/h → respuesta A (B 50 es el promedio, el error; en historias). Promoción: «la primera hora es sin costo» y escribir PLAN (pedido del usuario 2026-11-22; confirmar con Nicolás hasta cuándo vale).",
+  "caption": "Vas a una ciudad a 60 km/h y volvés a 30 km/h. ¿Tu velocidad media es 45? No: es 40.\n\nSupongamos 60 km de ida. A 60 km/h tardás 1 hora. De vuelta, a 30 km/h, tardás 2 horas.\nEn total: 120 km en 3 horas → 120 ÷ 3 = 40 km/h.\n\nLa velocidad media es distancia total ÷ tiempo total. Como pasás más tiempo yendo lento, pesa más.\n\nAhora vos: si vas a 40 km/h y volvés a 60 km/h, ¿cuál es tu velocidad media? Dejá la letra (A, B o C) en los comentarios. La respuesta la subo en historias.\n\nSoy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.\n\n#fisica #velocidad #cinematica #liceo #examenes #clasesparticulares #profedefisica",
+  "reel": {
+    "cover": {
+      "kicker": "pregunta rápida",
+      "eq": [
+        {
+          "text": "60 y 30 km/h"
+        }
+      ],
+      "eqSize": 140,
+      "hand": "¿media = 45?",
+      "handSize": 110
+    },
+    "scenes": [
+      {
+        "say": "[curious] Vas a una ciudad a 60 kilómetros por hora, y volvés a 30. ¿Tu velocidad media es 45?",
+        "kicker": "pregunta rápida",
+        "kickerAt": -1,
+        "eq": [
+          {
+            "at": -1,
+            "text": "ida: 60 km/h"
+          },
+          {
+            "at": -1,
+            "text": "vuelta: 30 km/h"
+          }
+        ],
+        "eqSize": 120,
+        "hand": "¿media = 45?",
+        "handAt": "media",
+        "handSize": 90
+      },
+      {
+        "say": "[playful] Parece obvio, ¿no? [serious] Pero no: es 40.",
+        "kicker": "parece obvio",
+        "eq": [
+          {
+            "at": "Parece",
+            "text": "~(60 + 30) ÷ 2 = 45~",
+            "mark": "bad",
+            "markAt": "no#2"
+          },
+          {
+            "at": "es",
+            "text": "media = 40 km/h",
+            "mark": "ok",
+            "markAt": "40"
+          }
+        ],
+        "eqSize": 92,
+        "hold": 1
+      },
+      {
+        "say": "[confident] Supongamos 60 kilómetros de ida. A 60, tardás una hora. De vuelta, a 30, tardás dos horas.",
+        "kicker": "contá el tiempo",
+        "eq": [
+          {
+            "at": "Supongamos",
+            "text": "d = 60 km"
+          },
+          {
+            "at": "tardás",
+            "text": "ida: 60 ÷ 60 = 1 h"
+          },
+          {
+            "at": "vuelta",
+            "text": "vuelta: 60 ÷ 30 = [2 h]",
+            "hlAt": "horas"
+          }
+        ],
+        "eqSize": 92,
+        "hold": 0.5
+      },
+      {
+        "say": "[serious] En total: 120 kilómetros en 3 horas. [excited] ¡120 dividido 3, 40!",
+        "kicker": "en total",
+        "eq": [
+          {
+            "at": "total",
+            "text": "120 km ÷ 3 h"
+          },
+          {
+            "at": "dividido",
+            "text": "= 40 km/h",
+            "mark": "ok",
+            "markAt": "40"
+          }
+        ],
+        "eqSize": 110,
+        "hand": "más tiempo yendo lento",
+        "handAt": "dividido",
+        "handSize": 80,
+        "hold": 1.2
+      },
+      {
+        "say": "[playful] Ahora vos: si vas a 40, y volvés a 60, ¿cuál es tu velocidad media? ¿A, B o C? Dejame la letra en los comentarios.",
+        "kicker": "ahora vos",
+        "eq": [
+          {
+            "at": "Ahora",
+            "text": "ida 40 · vuelta 60"
+          }
+        ],
+        "eqSize": 88,
+        "options": [
+          {
+            "label": "A",
+            "text": "48 km/h"
+          },
+          {
+            "label": "B",
+            "text": "50 km/h"
+          },
+          {
+            "label": "C",
+            "text": "52 km/h"
+          }
+        ],
+        "optionsAt": [
+          "A",
+          "B",
+          "C"
+        ],
+        "hand": "comentá la letra ↓",
+        "handAt": "Dejame",
+        "handSize": 72
+      },
+      {
+        "say": "Soy Nico, profe de física. [warmly] Si tenés examen, escribime PLAN: la primera hora es sin costo.",
+        "title": "Escribime *PLAN*",
+        "size": 110,
+        "titleAt": "Escribime",
+        "body": "por **mensaje directo**.\n\nLa **primera hora es sin costo.**",
+        "bodyAt": "primera",
+        "sign": true,
+        "signAt": "Nico"
+      }
+    ]
+  }
+}

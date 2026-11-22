@@ -1,0 +1,12 @@
+Vas a una ciudad a 60 km/h y volvés a 30 km/h. ¿Tu velocidad media es 45? No: es 40.
+
+Supongamos 60 km de ida. A 60 km/h tardás 1 hora. De vuelta, a 30 km/h, tardás 2 horas.
+En total: 120 km en 3 horas → 120 ÷ 3 = 40 km/h.
+
+La velocidad media es distancia total ÷ tiempo total. Como pasás más tiempo yendo lento, pesa más.
+
+Ahora vos: si vas a 40 km/h y volvés a 60 km/h, ¿cuál es tu velocidad media? Dejá la letra (A, B o C) en los comentarios. La respuesta la subo en historias.
+
+Soy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.
+
+#fisica #velocidad #cinematica #liceo #examenes #clasesparticulares #profedefisica
