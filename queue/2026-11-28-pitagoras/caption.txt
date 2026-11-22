@@ -1,0 +1,15 @@
+Pitágoras en 3 pasos. Guardalo para el escrito.
+
+Solo sirve en triángulos rectángulos: a y b son los catetos, c la hipotenusa (el lado más largo).
+
+1. Elevá los catetos al cuadrado: 3² = 9 y 4² = 16
+2. Sumalos: 9 + 16 = 25
+3. Sacá la raíz: √25 = 5
+
+¿Te falta un cateto? Restás en vez de sumar: 13² − 5² = 144, y √144 = 12.
+
+Ahora vos: los catetos miden 6 y 8. ¿Cuánto mide la hipotenusa? Dejá tu resultado en los comentarios.
+
+Soy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.
+
+#matematica #pitagoras #geometria #liceo #examenes #clasesparticulares #profedematematica

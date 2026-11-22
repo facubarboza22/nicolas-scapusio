@@ -1,0 +1,97 @@
+{
+  "theme": "mate",
+  "textSize": "large",
+  "publishAt": "2026-11-28T18:00:00-03:00",
+  "note": "Carrusel «paso a paso» (8 placas): Pitágoras. Verificado con node: 3² + 4² = 9 + 16 = 25, √25 = 5; 13² − 5² = 169 − 25 = 144, √144 = 12. Práctica: catetos 6 y 8 → √100 = 10 (respuesta en historias). Promoción: «la primera hora es sin costo» y escribir PLAN (pedido del usuario 2026-11-22; confirmar con Nicolás hasta cuándo vale).",
+  "caption": "Pitágoras en 3 pasos. Guardalo para el escrito.\n\nSolo sirve en triángulos rectángulos: a y b son los catetos, c la hipotenusa (el lado más largo).\n\n1. Elevá los catetos al cuadrado: 3² = 9 y 4² = 16\n2. Sumalos: 9 + 16 = 25\n3. Sacá la raíz: √25 = 5\n\n¿Te falta un cateto? Restás en vez de sumar: 13² − 5² = 144, y √144 = 12.\n\nAhora vos: los catetos miden 6 y 8. ¿Cuánto mide la hipotenusa? Dejá tu resultado en los comentarios.\n\nSoy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.\n\n#matematica #pitagoras #geometria #liceo #examenes #clasesparticulares #profedematematica",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "paso a paso",
+      "title": "Pitágoras *en 3 pasos*",
+      "size": 124,
+      "eqSize": 110,
+      "eq": [
+        {
+          "text": "a² + b² = c²"
+        }
+      ],
+      "hand": "guardalo →"
+    },
+    {
+      "kicker": "la idea",
+      "title": "Solo en triángulos *rectángulos*",
+      "lines": [
+        "**a** y **b**: los catetos, forman el ángulo recto",
+        "**c**: la hipotenusa, el lado más largo"
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "paso 1",
+      "title": "Catetos *al cuadrado*",
+      "eqSize": 100,
+      "eq": [
+        {
+          "text": "a = 3, b = 4"
+        },
+        {
+          "text": "3² = 9 y 4² = 16"
+        }
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "paso 2",
+      "title": "*Sumalos*",
+      "eqSize": 120,
+      "eq": [
+        {
+          "text": "9 + 16 = 25"
+        }
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "paso 3",
+      "title": "Sacá la *raíz*",
+      "eqSize": 120,
+      "eq": [
+        {
+          "text": "c = √25 = [5]",
+          "mark": "ok"
+        }
+      ],
+      "hand": "el error típico: olvidarse la raíz"
+    },
+    {
+      "layout": "work",
+      "kicker": "¿y si falta un cateto?",
+      "title": "Restás *en vez de sumar*",
+      "eqSize": 76,
+      "eq": [
+        {
+          "text": "c = 13, a = 5"
+        },
+        {
+          "text": "b² = 169 − 25 = 144"
+        },
+        {
+          "text": "b = √144 = [12]",
+          "mark": "ok"
+        }
+      ]
+    },
+    {
+      "layout": "note",
+      "title": "Ahora *vos*",
+      "hand": "probalo",
+      "body": "Los catetos miden **6** y **8**. ¿Cuánto mide la hipotenusa?\n\nDejá tu resultado en los comentarios. La respuesta la subo en historias."
+    },
+    {
+      "layout": "cta",
+      "title": "¿Geometría para *diciembre?*",
+      "body": "**Escribime PLAN** por mensaje directo y armamos tu plan.\n\nLa **primera hora es sin costo**."
+    }
+  ]
+}
