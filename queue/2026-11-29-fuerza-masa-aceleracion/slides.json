@@ -1,0 +1,73 @@
+{
+  "theme": "fisica",
+  "textSize": "large",
+  "publishAt": "2026-11-29T18:00:00-03:00",
+  "note": "Carrusel de Física (7 placas): segunda ley de Newton. Verificado con node: 1200 · 2 = 2400 N; 30 ÷ 6 = 5 m/s². Práctica (sin rozamiento): 500 ÷ 250 = 2 m/s² (respuesta en historias). Promoción: «la primera hora es sin costo» y escribir PLAN (pedido del usuario 2026-11-22; confirmar con Nicolás hasta cuándo vale).",
+  "caption": "F = m · a, la segunda ley de Newton, explicada sin vueltas. Guardalo.\n\nF: fuerza, en newtons (N)\nm: masa, en kilos (kg)\na: aceleración, en m/s²\n\n🚗 Un auto de 1200 kg acelera a 2 m/s²: F = 1200 · 2 = 2400 N\n📦 Empujás 6 kg con 30 N: a = 30 ÷ 6 = 5 m/s²\n\nMisma fuerza, más masa: menos aceleración. Por eso cuesta más empujar un auto que una bici.\n\nAhora vos: empujás un carro de 250 kg con 500 N, sin rozamiento. ¿Qué aceleración tiene? Dejá tu resultado en los comentarios.\n\nSoy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.\n\n#fisica #newton #dinamica #liceo #examenes #clasesparticulares #profedefisica",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "segunda ley de Newton",
+      "title": "F = m · a *sin vueltas*",
+      "size": 124,
+      "hand": "con unidades →"
+    },
+    {
+      "kicker": "qué es cada letra",
+      "title": "Las tres *letras*",
+      "lines": [
+        "**F**: fuerza, en newtons (N)",
+        "**m**: masa, en kilos (kg)",
+        "**a**: aceleración, en m/s²"
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "busco la fuerza",
+      "title": "F = m · a",
+      "eqSize": 80,
+      "eq": [
+        {
+          "text": "m = 1200 kg, a = 2 m/s²"
+        },
+        {
+          "text": "F = 1200 · 2 = [2400 N]",
+          "mark": "ok"
+        }
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "busco la aceleración",
+      "title": "a = F ÷ m",
+      "eqSize": 88,
+      "eq": [
+        {
+          "text": "F = 30 N, m = 6 kg"
+        },
+        {
+          "text": "a = 30 ÷ 6 = [5 m/s²]",
+          "mark": "ok"
+        }
+      ]
+    },
+    {
+      "layout": "big",
+      "kicker": "la idea",
+      "title": "Misma fuerza, más masa: *menos aceleración*",
+      "size": 88,
+      "body": "Por eso cuesta más empujar un auto que una bici."
+    },
+    {
+      "layout": "note",
+      "title": "Ahora *vos*",
+      "hand": "probalo",
+      "body": "Empujás un carro de **250 kg** con **500 N**, sin rozamiento. ¿Qué aceleración tiene?\n\nDejá tu resultado en los comentarios. La respuesta la subo en historias."
+    },
+    {
+      "layout": "cta",
+      "title": "¿Física para *diciembre?*",
+      "body": "**Escribime PLAN** por mensaje directo y armamos tu plan.\n\nLa **primera hora es sin costo**."
+    }
+  ]
+}

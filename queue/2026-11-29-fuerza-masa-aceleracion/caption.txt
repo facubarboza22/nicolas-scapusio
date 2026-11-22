@@ -1,0 +1,16 @@
+F = m · a, la segunda ley de Newton, explicada sin vueltas. Guardalo.
+
+F: fuerza, en newtons (N)
+m: masa, en kilos (kg)
+a: aceleración, en m/s²
+
+🚗 Un auto de 1200 kg acelera a 2 m/s²: F = 1200 · 2 = 2400 N
+📦 Empujás 6 kg con 30 N: a = 30 ÷ 6 = 5 m/s²
+
+Misma fuerza, más masa: menos aceleración. Por eso cuesta más empujar un auto que una bici.
+
+Ahora vos: empujás un carro de 250 kg con 500 N, sin rozamiento. ¿Qué aceleración tiene? Dejá tu resultado en los comentarios.
+
+Soy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.
+
+#fisica #newton #dinamica #liceo #examenes #clasesparticulares #profedefisica
