@@ -1,0 +1,94 @@
+{
+  "theme": "fisica",
+  "textSize": "large",
+  "publishAt": "2026-11-25T18:00:00-03:00",
+  "note": "Carrusel «paso a paso» de Física (8 placas): MRU. Verificado con node: 150 ÷ 2 = 75 km/h; 20 · 30 = 600 m; 240 ÷ 80 = 3 h. Práctica: 1,2 km = 1200 m, 1200 ÷ 5 = 240 s = 4 min (respuesta en historias). Promoción: «la primera hora es sin costo» y escribir PLAN (pedido del usuario 2026-11-22; confirmar con Nicolás hasta cuándo vale).",
+  "caption": "MRU sin perderte: una sola fórmula, tres formas de usarla. Guardalo para el escrito.\n\n🚗 Velocidad: v = d ÷ t → 150 km en 2 h = 75 km/h\n📏 Distancia: d = v · t → 20 m/s durante 30 s = 600 m\n⏱️ Tiempo: t = d ÷ v → 240 km a 80 km/h = 3 h\n\nOjo con las unidades: si la velocidad está en m/s, la distancia va en metros y el tiempo en segundos.\n\nAhora vos: un ciclista va a 5 m/s. ¿Cuánto tarda en recorrer 1,2 km? Dejá tu resultado en los comentarios. La respuesta la subo en historias.\n\nSoy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.\n\n#fisica #mru #cinematica #liceo #examenes #clasesparticulares #profedefisica",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "paso a paso",
+      "title": "MRU *sin perderte*",
+      "size": 128,
+      "eqSize": 110,
+      "eq": [
+        {
+          "text": "v = d ÷ t"
+        }
+      ],
+      "hand": "una fórmula, tres usos →"
+    },
+    {
+      "kicker": "la idea",
+      "title": "Movimiento *rectilíneo uniforme*",
+      "lines": [
+        "Va en **línea recta**",
+        "Siempre a la **misma velocidad**",
+        "Una sola fórmula: **v = d ÷ t**"
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "busco la velocidad",
+      "title": "v = d ÷ t",
+      "eqSize": 92,
+      "eq": [
+        {
+          "text": "150 km en 2 h"
+        },
+        {
+          "text": "v = 150 ÷ 2 = [75 km/h]",
+          "mark": "ok"
+        }
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "busco la distancia",
+      "title": "d = v · t",
+      "eqSize": 92,
+      "eq": [
+        {
+          "text": "20 m/s durante 30 s"
+        },
+        {
+          "text": "d = 20 · 30 = [600 m]",
+          "mark": "ok"
+        }
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "busco el tiempo",
+      "title": "t = d ÷ v",
+      "eqSize": 92,
+      "eq": [
+        {
+          "text": "240 km a 80 km/h"
+        },
+        {
+          "text": "t = 240 ÷ 80 = [3 h]",
+          "mark": "ok"
+        }
+      ]
+    },
+    {
+      "layout": "big",
+      "kicker": "ojo",
+      "title": "Las unidades *tienen que coincidir*",
+      "size": 92,
+      "body": "Si la velocidad está en m/s, la distancia va en metros y el tiempo en segundos."
+    },
+    {
+      "layout": "note",
+      "title": "Ahora *vos*",
+      "hand": "probalo",
+      "body": "Un ciclista va a **5 m/s**. ¿Cuánto tarda en recorrer **1,2 km**?\n\nDejá tu resultado en los comentarios. La respuesta la subo en historias."
+    },
+    {
+      "layout": "cta",
+      "title": "¿Física para *diciembre?*",
+      "body": "**Escribime PLAN** por mensaje directo y armamos tu plan.\n\nLa **primera hora es sin costo**."
+    }
+  ]
+}
