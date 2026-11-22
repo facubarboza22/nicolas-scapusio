@@ -1,0 +1,16 @@
+El error más común con ecuaciones con fracciones: multiplicar solo una parte. Guardalo.
+
+En x/2 + 3 = 7, para sacar el 2 hay que multiplicar TODOS los términos por 2:
+x + 6 = 14 → x = 8 ✓
+
+Si multiplicás solo la fracción (x + 3 = 14) te da 11, y 11/2 + 3 no da 7.
+
+Con dos fracciones, multiplicá por el mínimo común múltiplo: x/3 + x/2 = 5, por 6: 2x + 3x = 30, x = 6.
+
+Y siempre verificá reemplazando.
+
+Ahora vos: x/4 + 2 = 5. Dejá tu resultado en los comentarios.
+
+Soy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.
+
+#matematica #ecuaciones #fracciones #liceo #examenes #clasesparticulares #profedematematica

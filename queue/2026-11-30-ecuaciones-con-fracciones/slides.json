@@ -1,0 +1,100 @@
+{
+  "theme": "mate",
+  "textSize": "large",
+  "publishAt": "2026-11-30T18:00:00-03:00",
+  "note": "Carrusel «error típico» (7 placas): ecuaciones con fracciones. Verificado con node: x/2 + 3 = 7 → x + 6 = 14 → x = 8, y 8/2 + 3 = 7; el error (x + 3 = 14) da x = 11 y 11/2 + 3 = 8,5 ≠ 7; x/3 + x/2 = 5 · 6 → 2x + 3x = 30 → x = 6, y 6/3 + 6/2 = 5. Práctica x/4 + 2 = 5 → x = 12 (respuesta en historias). Promoción: «la primera hora es sin costo» y escribir PLAN (pedido del usuario 2026-11-22; confirmar con Nicolás hasta cuándo vale).",
+  "caption": "El error más común con ecuaciones con fracciones: multiplicar solo una parte. Guardalo.\n\nEn x/2 + 3 = 7, para sacar el 2 hay que multiplicar TODOS los términos por 2:\nx + 6 = 14 → x = 8 ✓\n\nSi multiplicás solo la fracción (x + 3 = 14) te da 11, y 11/2 + 3 no da 7.\n\nCon dos fracciones, multiplicá por el mínimo común múltiplo: x/3 + x/2 = 5, por 6: 2x + 3x = 30, x = 6.\n\nY siempre verificá reemplazando.\n\nAhora vos: x/4 + 2 = 5. Dejá tu resultado en los comentarios.\n\nSoy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.\n\n#matematica #ecuaciones #fracciones #liceo #examenes #clasesparticulares #profedematematica",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "error típico",
+      "title": "Ecuaciones con *fracciones*",
+      "size": 124,
+      "eqSize": 110,
+      "eq": [
+        {
+          "text": "x/2 + 3 = 7"
+        }
+      ],
+      "hand": "¿multiplicaste todo? →"
+    },
+    {
+      "layout": "work",
+      "kicker": "el error",
+      "title": "Multiplicar *solo una parte*",
+      "eqSize": 100,
+      "eq": [
+        {
+          "text": "x/2 + 3 = 7"
+        },
+        {
+          "text": "~x + 3 = 14~",
+          "mark": "bad",
+          "note": "el 3 quedó sin multiplicar"
+        }
+      ],
+      "hand": "da 11, y 11/2 + 3 = 8,5"
+    },
+    {
+      "layout": "work",
+      "kicker": "bien hecho",
+      "title": "Multiplicá *todos* los términos",
+      "eqSize": 92,
+      "eq": [
+        {
+          "text": "x/2 · 2 + 3 · 2 = 7 · 2",
+          "size": 72
+        },
+        {
+          "text": "x [+ 6] = 14"
+        },
+        {
+          "text": "x = 8",
+          "mark": "ok"
+        }
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "verificá",
+      "title": "Reemplazá *y fijate*",
+      "eqSize": 92,
+      "eq": [
+        {
+          "text": "8/2 + 3 = 4 + 3 = 7",
+          "mark": "ok"
+        }
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "con dos fracciones",
+      "title": "Multiplicá por el *mcm*",
+      "eqSize": 84,
+      "eq": [
+        {
+          "text": "x/3 + x/2 = 5"
+        },
+        {
+          "text": "2x + 3x = 30",
+          "note": "todo por 6"
+        },
+        {
+          "text": "5x = 30 → x = [6]",
+          "mark": "ok"
+        }
+      ]
+    },
+    {
+      "layout": "note",
+      "title": "Ahora *vos*",
+      "hand": "probalo",
+      "body": "Resolvé: **x/4 + 2 = 5**\n\nDejá tu resultado en los comentarios. La respuesta la subo en historias."
+    },
+    {
+      "layout": "cta",
+      "title": "¿Te trabás *con el álgebra?*",
+      "body": "**Escribime PLAN** por mensaje directo y armamos tu plan.\n\nLa **primera hora es sin costo**."
+    }
+  ]
+}
