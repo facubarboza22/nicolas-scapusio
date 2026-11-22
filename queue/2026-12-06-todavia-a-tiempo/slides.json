@@ -1,0 +1,48 @@
+{
+  "theme": "mate",
+  "textSize": "large",
+  "publishAt": "2026-12-06T18:00:00-03:00",
+  "note": "Carrusel de PROMOCIÓN (5 placas): todavía estás a tiempo. «Enseñar, apoyar y ayudar» es la vocación de Nico según el usuario (2026-10-31). Sin cuentas. No dice fechas límite ni cupos (no confirmados). Promoción: «la primera hora es sin costo» y escribir PLAN (pedido del usuario 2026-11-22; confirmar con Nicolás hasta cuándo vale).",
+  "caption": "Exámenes de diciembre: todavía estás a tiempo.\n\nSoy el Lic. Nicolás Scapusio, profesor particular de Matemática y Física.\n\n🎯 Empezamos por lo que más te cuesta\n📝 Ejercicios tipo examen, corregidos uno por uno\n📅 Un plan hasta el día del examen\n\nEscribime PLAN por mensaje directo, contame qué examen tenés y cuándo. La primera hora es sin costo.\n\nEse examen lo salvás.\n\n#examenes #diciembre #matematica #fisica #liceo #clasesparticulares #profedematematica #profedefisica",
+  "slides": [
+    {
+      "layout": "cover",
+      "bg": "strong",
+      "kicker": "exámenes de diciembre",
+      "title": "Todavía estás *a tiempo*",
+      "size": 124,
+      "hand": "la primera hora es sin costo"
+    },
+    {
+      "kicker": "clases particulares",
+      "title": "Matemática y Física, *con un plan para vos*",
+      "lines": [
+        "Empezamos por **lo que más te cuesta**",
+        "**Ejercicios tipo examen**, corregidos uno por uno",
+        "Un plan **hasta el día del examen**"
+      ]
+    },
+    {
+      "layout": "note",
+      "title": "Cómo *arrancamos*",
+      "hand": "en 3 pasos",
+      "steps": [
+        "Me escribís PLAN y qué examen tenés.",
+        "Vemos los temas y dónde te trabás.",
+        "Primera hora sin costo, y seguimos."
+      ]
+    },
+    {
+      "layout": "big",
+      "kicker": "Lic. Nicolás Scapusio",
+      "title": "Enseñar, apoyar *y ayudar.*",
+      "size": 100,
+      "body": "Que llegues al examen sabiendo qué hacer."
+    },
+    {
+      "layout": "cta",
+      "title": "Escribime *PLAN*",
+      "body": "por **mensaje directo**. La **primera hora es sin costo**.\n\nEse examen lo salvás."
+    }
+  ]
+}
