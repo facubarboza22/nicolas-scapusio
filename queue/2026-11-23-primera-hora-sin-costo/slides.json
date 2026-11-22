@@ -1,0 +1,84 @@
+{
+  "theme": "mate",
+  "publishAt": "2026-11-23T10:00:00-03:00",
+  "note": "Reel de PROMOCIÓN (narrado, corto). Oferta pedida por el usuario el 2026-11-22: «licenciado y profesor Nicolás Scapusio, clases particulares, cada plan adaptado, la primera hora sin costo, escribime y armamos un plan especial para vos, ese examen lo salvás». La invitación es escribir PLAN por mensaje directo (distinta de DICIEMBRE del carrusel, así se sabe de dónde viene cada mensaje). Sin cuentas ni números que verificar. No dice modalidad, niveles ni precio (no están confirmados). ESCUCHAR cómo pronuncia la voz «Scapusio».",
+  "caption": "Se vienen los exámenes: la primera hora de clase es sin costo.\n\nSoy el Lic. Nicolás Scapusio, profesor particular de Matemática y Física. Cada plan es adaptado a vos:\n\n📅 Vemos qué examen tenés y cuándo\n🧠 Empezamos por lo que más te cuesta\n📝 Practicamos ejercicios tipo examen, corregidos uno por uno\n\nEscribime PLAN por mensaje directo, contame qué examen tenés y armamos un plan especial para vos. La primera hora corre por mi cuenta.\n\nEse examen lo salvás.\n\n#examenes #diciembre #matematica #fisica #clasesparticulares #liceo #profedematematica #profedefisica",
+  "reel": {
+    "cover": {
+      "kicker": "clases particulares",
+      "eq": [
+        {
+          "text": "1.ª hora"
+        },
+        {
+          "text": "[sin costo]"
+        }
+      ],
+      "eqSize": 150,
+      "hand": "Matemática y Física",
+      "handSize": 90
+    },
+    "scenes": [
+      {
+        "say": "[excited] ¿Tenés examen de Matemática o Física? [confident] La primera hora de clase es sin costo.",
+        "kicker": "se vienen los exámenes",
+        "kickerAt": -1,
+        "eq": [
+          {
+            "at": -1,
+            "text": "Matemática · Física"
+          },
+          {
+            "at": "primera",
+            "text": "1.ª hora"
+          },
+          {
+            "at": "sin",
+            "text": "[sin costo]",
+            "hlAt": "costo",
+            "mark": "ok",
+            "markAt": "costo"
+          }
+        ],
+        "eqSize": 100,
+        "hold": 0.6
+      },
+      {
+        "say": "[warmly] Soy el licenciado Nicolás Scapusio, profesor particular de Matemática y Física.",
+        "title": "Lic. Nicolás *Scapusio*",
+        "size": 100,
+        "titleAt": "Soy",
+        "body": "Profesor particular de **Matemática y Física**",
+        "bodyAt": "profesor"
+      },
+      {
+        "say": "[confident] Cada plan, adaptado a vos: vemos qué examen tenés, empezamos por lo que más te cuesta, y practicamos ejercicios tipo examen.",
+        "kicker": "cada plan, adaptado a vos",
+        "kickerAt": "Cada",
+        "steps": [
+          "Vemos **qué examen** tenés",
+          "Empezamos por **lo que más te cuesta**",
+          "Practicamos **ejercicios tipo examen**"
+        ],
+        "stepsAt": [
+          "vemos",
+          "empezamos",
+          "practicamos"
+        ],
+        "hold": 0.4
+      },
+      {
+        "say": "[warmly] Escribime PLAN por mensaje directo, y armamos un plan especial para vos. [confident] Ese examen... lo salvás.",
+        "title": "Escribime *PLAN*",
+        "size": 120,
+        "titleAt": "Escribime",
+        "body": "por **mensaje directo** y armamos un plan especial para vos.\n\nLa **primera hora es sin costo.**",
+        "bodyAt": "mensaje",
+        "hand": "ese examen lo salvás",
+        "handAt": "Ese",
+        "handSize": 100,
+        "hold": 1.5
+      }
+    ]
+  }
+}
