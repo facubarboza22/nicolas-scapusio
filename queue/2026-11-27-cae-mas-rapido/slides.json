@@ -1,0 +1,143 @@
+{
+  "theme": "fisica",
+  "publishAt": "2026-11-27T18:00:00-03:00",
+  "note": "Reel «pregunta rápida» de Física (narrado): caída libre, la masa no importa (sin aire). Verificado con node: desde 20 m con g = 9,8 m/s², t = √(2h/g) = 2,02 s ≈ 2 s para las dos. Lo de la Luna es real (Apolo 15, 1971, martillo y pluma). Desafío: el doble de altura NO da el doble de tiempo: t crece con √h, √2 ≈ 1,41 veces → respuesta B «No, menos del doble» (en historias). Promoción: «la primera hora es sin costo» y escribir PLAN (pedido del usuario 2026-11-22; confirmar con Nicolás hasta cuándo vale).",
+  "caption": "Soltás una piedra de 1 kg y otra de 10 kg desde la misma altura. ¿Cuál llega primero?\n\nSin aire, llegan juntas. La gravedad acelera todo igual: 9,8 m/s². Desde 20 m, las dos tardan unos 2 segundos.\n\nLa pluma cae más lento solo por el aire. En la Luna, donde no hay aire, un astronauta soltó un martillo y una pluma: llegaron juntos.\n\nAhora vos: si la soltás desde el doble de altura, ¿tarda el doble? Dejá la letra (A, B o C) en los comentarios. La respuesta la subo en historias.\n\nSoy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.\n\n#fisica #caidalibre #gravedad #liceo #examenes #clasesparticulares #profedefisica",
+  "reel": {
+    "cover": {
+      "kicker": "pregunta rápida",
+      "eq": [
+        {
+          "text": "1 kg vs 10 kg"
+        }
+      ],
+      "eqSize": 140,
+      "hand": "¿cuál cae primero?",
+      "handSize": 100
+    },
+    "scenes": [
+      {
+        "say": "[curious] Soltás una piedra de 1 kilo y otra de 10 kilos, desde la misma altura. ¿Cuál llega primero al piso?",
+        "kicker": "pregunta rápida",
+        "kickerAt": -1,
+        "eq": [
+          {
+            "at": -1,
+            "text": "1 kg vs 10 kg"
+          }
+        ],
+        "eqSize": 130,
+        "hand": "¿cuál llega primero?",
+        "handAt": "Cuál",
+        "handSize": 90
+      },
+      {
+        "say": "[playful] Parece que la pesada, ¿no? [serious] Pero no: sin aire, llegan juntas.",
+        "kicker": "parece que sí",
+        "eq": [
+          {
+            "at": "Parece",
+            "text": "~la de 10 kg~",
+            "mark": "bad",
+            "markAt": "no#2"
+          },
+          {
+            "at": "llegan",
+            "text": "[llegan juntas]",
+            "hlAt": "juntas",
+            "mark": "ok",
+            "markAt": "juntas"
+          }
+        ],
+        "eqSize": 120,
+        "hold": 1
+      },
+      {
+        "say": "[confident] Mirá: la gravedad acelera todo igual. Desde 20 metros, las dos tardan unos 2 segundos.",
+        "kicker": "la gravedad",
+        "eq": [
+          {
+            "at": "gravedad",
+            "text": "g = 9,8 m/s²"
+          },
+          {
+            "at": "Desde",
+            "text": "h = 20 m → t ≈ [2 s]",
+            "hlAt": "segundos"
+          }
+        ],
+        "eqSize": 100,
+        "hand": "no depende de la masa",
+        "handAt": "tardan",
+        "handSize": 80,
+        "hold": 0.6
+      },
+      {
+        "say": "[serious] La pluma cae más lento solo por el aire. [excited] ¡En la Luna, una pluma y un martillo llegaron juntos!",
+        "kicker": "¿y la pluma?",
+        "eq": [
+          {
+            "at": "pluma",
+            "text": "pluma: la frena el aire"
+          },
+          {
+            "at": "Luna",
+            "text": "en la Luna: [juntos]",
+            "hlAt": "juntos",
+            "mark": "ok",
+            "markAt": "juntos"
+          }
+        ],
+        "eqSize": 92,
+        "hold": 1
+      },
+      {
+        "say": "[playful] Ahora vos: si la soltás desde el doble de altura, ¿tarda el doble? ¿A, B o C? Dejame la letra en los comentarios.",
+        "kicker": "ahora vos",
+        "eq": [
+          {
+            "at": "Ahora",
+            "text": "altura × 2"
+          },
+          {
+            "at": "tarda",
+            "text": "¿tiempo × 2?"
+          }
+        ],
+        "eqSize": 88,
+        "options": [
+          {
+            "label": "A",
+            "text": "Sí, el doble"
+          },
+          {
+            "label": "B",
+            "text": "No, menos del doble"
+          },
+          {
+            "label": "C",
+            "text": "Tarda lo mismo"
+          }
+        ],
+        "optionsAt": [
+          "A",
+          "B",
+          "C"
+        ],
+        "hand": "comentá la letra ↓",
+        "handAt": "Dejame",
+        "handSize": 72
+      },
+      {
+        "say": "Soy Nico, profe de física. [warmly] Si tenés examen, escribime PLAN: la primera hora es sin costo.",
+        "title": "Escribime *PLAN*",
+        "size": 110,
+        "titleAt": "Escribime",
+        "body": "por **mensaje directo**.\n\nLa **primera hora es sin costo.**",
+        "bodyAt": "primera",
+        "sign": true,
+        "signAt": "Nico"
+      }
+    ]
+  }
+}
