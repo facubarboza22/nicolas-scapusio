@@ -1,0 +1,144 @@
+{
+  "theme": "mate",
+  "publishAt": "2026-12-01T18:00:00-03:00",
+  "note": "Reel «pregunta rápida» (narrado): 0,5 × 0,5. Verificado con node: 0,5 · 0,5 = 0,25 (½ de ½ = ¼ = 0,25); 5 · 5 = 25 con 1 + 1 = 2 decimales. Desafío 0,2 × 0,3 = 0,06 → respuesta C (A 0,6 y B 6 son los errores típicos; en historias). Promoción: «la primera hora es sin costo» y escribir PLAN (pedido del usuario 2026-11-22; confirmar con Nicolás hasta cuándo vale).",
+  "caption": "¿Cuánto es 0,5 × 0,5? Muchos dicen 2,5 o 0,5. Da 0,25.\n\n0,5 es la mitad. Y la mitad de la mitad es un cuarto: 0,25.\n\nEl truco: multiplicá sin la coma (5 × 5 = 25) y después contá los decimales de los dos números (uno y uno, dos). Resultado con dos decimales: 0,25.\n\nAhora vos: ¿cuánto es 0,2 × 0,3? Dejá la letra (A, B o C) en los comentarios. La respuesta la subo en historias.\n\nSoy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.\n\n#matematica #decimales #liceo #examenes #clasesparticulares #profedematematica",
+  "reel": {
+    "cover": {
+      "kicker": "pregunta rápida",
+      "eq": [
+        {
+          "text": "0,5 × 0,5"
+        }
+      ],
+      "eqSize": 160,
+      "hand": "¿cuánto da?",
+      "handSize": 110
+    },
+    "scenes": [
+      {
+        "say": "[curious] ¿Cuánto es 0,5 por 0,5?",
+        "kicker": "pregunta rápida",
+        "kickerAt": -1,
+        "eq": [
+          {
+            "at": -1,
+            "text": "0,5 × 0,5 = ?"
+          }
+        ],
+        "eqSize": 140,
+        "hand": "¿cuánto da?",
+        "handAt": "Cuánto",
+        "handSize": 100
+      },
+      {
+        "say": "[playful] Muchos dicen 2,5, o 0,5. [serious] Pero no: da 0,25.",
+        "kicker": "parece fácil",
+        "eq": [
+          {
+            "at": "Muchos",
+            "text": "~2,5~  ~0,5~",
+            "mark": "bad",
+            "markAt": "no"
+          },
+          {
+            "at": "da",
+            "text": "= 0,25",
+            "mark": "ok",
+            "markAt": "da"
+          }
+        ],
+        "eqSize": 140,
+        "hold": 1
+      },
+      {
+        "say": "[confident] Mirá: 0,5 es la mitad. Y la mitad de la mitad... es un cuarto. [excited] ¡Y un cuarto es 0,25!",
+        "kicker": "la mitad de la mitad",
+        "eq": [
+          {
+            "at": "Mirá",
+            "text": "0,5 = ½"
+          },
+          {
+            "at": "mitad#2",
+            "text": "½ de ½ = ¼"
+          },
+          {
+            "at": "cuarto#2",
+            "text": "¼ = [0,25]",
+            "hlAt": "cuarto#2",
+            "mark": "ok",
+            "markAt": "cuarto#2"
+          }
+        ],
+        "eqSize": 120,
+        "hold": 0.8
+      },
+      {
+        "say": "[serious] El truco: multiplicás sin la coma, 5 por 5, 25. Y después contás los decimales: uno y uno, dos.",
+        "kicker": "el truco",
+        "eq": [
+          {
+            "at": "truco",
+            "text": "5 × 5 = 25"
+          },
+          {
+            "at": "contás",
+            "text": "1 + 1 = 2 decimales"
+          },
+          {
+            "at": "dos",
+            "text": "→ [0,25]",
+            "mark": "ok",
+            "markAt": "dos"
+          }
+        ],
+        "eqSize": 104,
+        "hold": 1
+      },
+      {
+        "say": "[playful] Ahora vos: ¿cuánto es 0,2 por 0,3? ¿A, B o C? Dejame la letra en los comentarios.",
+        "kicker": "ahora vos",
+        "eq": [
+          {
+            "at": "Ahora",
+            "text": "0,2 × 0,3 = ?"
+          }
+        ],
+        "eqSize": 88,
+        "options": [
+          {
+            "label": "A",
+            "text": "0,6"
+          },
+          {
+            "label": "B",
+            "text": "6"
+          },
+          {
+            "label": "C",
+            "text": "0,06"
+          }
+        ],
+        "optionsAt": [
+          "A",
+          "B",
+          "C"
+        ],
+        "hand": "comentá la letra ↓",
+        "handAt": "Dejame",
+        "handSize": 72
+      },
+      {
+        "say": "Soy Nico, profe de matemática. [warmly] Si tenés examen, escribime PLAN: la primera hora es sin costo.",
+        "title": "Escribime *PLAN*",
+        "size": 110,
+        "titleAt": "Escribime",
+        "body": "por **mensaje directo**.\n\nLa **primera hora es sin costo.**",
+        "bodyAt": "primera",
+        "sign": true,
+        "signAt": "Nico"
+      }
+    ]
+  }
+}
