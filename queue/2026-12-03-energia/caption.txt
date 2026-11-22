@@ -1,0 +1,15 @@
+Energía cinética y potencial, con un ejemplo cada una. Guardalo.
+
+🏃 Cinética (la del movimiento): Ec = ½ · m · v²
+m = 2 kg, v = 3 m/s → Ec = ½ · 2 · 3² = 9 J
+
+🏔️ Potencial (la de la altura): Ep = m · g · h
+m = 2 kg, h = 5 m, g = 9,8 m/s² → Ep = 98 J (con g = 10, 100 J)
+
+Ojo: la velocidad va al cuadrado. El doble de velocidad es cuatro veces la energía.
+
+Ahora vos: una pelota de 0,5 kg va a 4 m/s. ¿Cuánta energía cinética tiene? Dejá tu resultado en los comentarios.
+
+Soy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.
+
+#fisica #energia #liceo #examenes #clasesparticulares #profedefisica

@@ -1,0 +1,84 @@
+{
+  "theme": "fisica",
+  "textSize": "large",
+  "publishAt": "2026-12-03T18:00:00-03:00",
+  "note": "Carrusel de Física (7 placas): energía cinética y potencial. Verificado con node: ½ · 2 · 3² = 9 J; 2 · 9,8 · 5 = 98 J (con g = 10: 100 J); el error ½ · 2 · 3 = 3 J; doble de velocidad → 2² = 4 veces la energía. Práctica: ½ · 0,5 · 4² = 4 J (respuesta en historias). Promoción: «la primera hora es sin costo» y escribir PLAN (pedido del usuario 2026-11-22; confirmar con Nicolás hasta cuándo vale).",
+  "caption": "Energía cinética y potencial, con un ejemplo cada una. Guardalo.\n\n🏃 Cinética (la del movimiento): Ec = ½ · m · v²\nm = 2 kg, v = 3 m/s → Ec = ½ · 2 · 3² = 9 J\n\n🏔️ Potencial (la de la altura): Ep = m · g · h\nm = 2 kg, h = 5 m, g = 9,8 m/s² → Ep = 98 J (con g = 10, 100 J)\n\nOjo: la velocidad va al cuadrado. El doble de velocidad es cuatro veces la energía.\n\nAhora vos: una pelota de 0,5 kg va a 4 m/s. ¿Cuánta energía cinética tiene? Dejá tu resultado en los comentarios.\n\nSoy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.\n\n#fisica #energia #liceo #examenes #clasesparticulares #profedefisica",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "paso a paso",
+      "title": "Energía cinética *y potencial*",
+      "size": 112,
+      "hand": "un ejemplo de cada una →"
+    },
+    {
+      "layout": "work",
+      "kicker": "cinética: la del movimiento",
+      "title": "Ec = ½ · m · v²",
+      "eqSize": 80,
+      "eq": [
+        {
+          "text": "m = 2 kg, v = 3 m/s"
+        },
+        {
+          "text": "Ec = ½ · 2 · 3² = [9 J]",
+          "mark": "ok"
+        }
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "potencial: la de la altura",
+      "title": "Ep = m · g · h",
+      "eqSize": 72,
+      "eq": [
+        {
+          "text": "m = 2 kg, h = 5 m"
+        },
+        {
+          "text": "g = 9,8 m/s²"
+        },
+        {
+          "text": "Ep = 2 · 9,8 · 5 = [98 J]",
+          "mark": "ok"
+        }
+      ],
+      "hand": "si usan g = 10, da 100 J"
+    },
+    {
+      "layout": "work",
+      "kicker": "ojo con el cuadrado",
+      "title": "La v va *al cuadrado*",
+      "eqSize": 92,
+      "eq": [
+        {
+          "text": "~½ · 2 · 3 = 3 J~",
+          "mark": "bad"
+        },
+        {
+          "text": "½ · 2 · 3² = 9 J",
+          "mark": "ok"
+        }
+      ]
+    },
+    {
+      "layout": "big",
+      "kicker": "la idea",
+      "title": "El doble de velocidad: *cuatro veces la energía*",
+      "size": 84,
+      "body": "Porque 2² = 4. Por eso un choque a 80 km/h es mucho peor que a 40."
+    },
+    {
+      "layout": "note",
+      "title": "Ahora *vos*",
+      "hand": "probalo",
+      "body": "Una pelota de **0,5 kg** va a **4 m/s**. ¿Cuánta energía cinética tiene?\n\nDejá tu resultado en los comentarios. La respuesta la subo en historias."
+    },
+    {
+      "layout": "cta",
+      "title": "¿Física para *diciembre?*",
+      "body": "**Escribime PLAN** por mensaje directo y armamos tu plan.\n\nLa **primera hora es sin costo**."
+    }
+  ]
+}
