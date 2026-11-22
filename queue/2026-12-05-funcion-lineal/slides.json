@@ -1,0 +1,78 @@
+{
+  "theme": "mate",
+  "textSize": "large",
+  "publishAt": "2026-12-05T18:00:00-03:00",
+  "note": "Carrusel «paso a paso» (7 placas): función lineal. Verificado con node: y = 2x + 1 da 1, 3, 5 para x = 0, 1, 2 (sube 2 por cada 1). Práctica: y = −3x + 4 con x = 2 → −2, y la recta baja (m < 0) (respuesta en historias). Promoción: «la primera hora es sin costo» y escribir PLAN (pedido del usuario 2026-11-22; confirmar con Nicolás hasta cuándo vale).",
+  "caption": "Función lineal sin vueltas: y = m · x + b. Guardalo.\n\nm es la pendiente: cuánto sube y cada vez que x avanza 1.\nb es la ordenada: dónde corta la recta al eje y.\n\nEjemplo: y = 2x + 1\nx = 0 → y = 1\nx = 1 → y = 3\nx = 2 → y = 5\nCada 1 en x, y sube 2: esa es la pendiente.\n\nSi m es negativa, la recta baja.\n\nAhora vos: en y = −3x + 4, ¿cuánto vale y cuando x = 2? ¿La recta sube o baja? Dejá tu respuesta en los comentarios.\n\nSoy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.\n\n#matematica #funciones #funcionlineal #liceo #examenes #clasesparticulares #profedematematica",
+  "slides": [
+    {
+      "layout": "cover",
+      "kicker": "paso a paso",
+      "title": "Función lineal *sin vueltas*",
+      "size": 120,
+      "eqSize": 110,
+      "eq": [
+        {
+          "text": "y = m · x + b"
+        }
+      ],
+      "hand": "guardalo →"
+    },
+    {
+      "kicker": "qué es cada letra",
+      "title": "m *y* b",
+      "lines": [
+        "**m**, la pendiente: cuánto sube y cada vez que x avanza 1",
+        "**b**, la ordenada: dónde corta al eje y"
+      ]
+    },
+    {
+      "layout": "work",
+      "kicker": "un ejemplo",
+      "title": "y = 2x + 1",
+      "eqSize": 96,
+      "eq": [
+        {
+          "text": "x = 0 → y = 1"
+        },
+        {
+          "text": "x = 1 → y = 3"
+        },
+        {
+          "text": "x = 2 → y = 5"
+        }
+      ],
+      "hand": "cada 1 en x, y sube 2"
+    },
+    {
+      "layout": "work",
+      "kicker": "leer la fórmula",
+      "title": "Sin hacer *cuentas*",
+      "eqSize": 120,
+      "eq": [
+        {
+          "text": "y = [2]x + [1]"
+        }
+      ],
+      "hand": "pendiente 2 · corta en y = 1"
+    },
+    {
+      "layout": "big",
+      "kicker": "el signo",
+      "title": "m negativa: *la recta baja*",
+      "size": 96,
+      "body": "Si m es positiva, la recta sube de izquierda a derecha. Si es negativa, baja."
+    },
+    {
+      "layout": "note",
+      "title": "Ahora *vos*",
+      "hand": "probalo",
+      "body": "En **y = −3x + 4**, ¿cuánto vale y cuando **x = 2**? ¿La recta sube o baja?\n\nDejá tu respuesta en los comentarios. La subo en historias."
+    },
+    {
+      "layout": "cta",
+      "title": "¿Funciones para *diciembre?*",
+      "body": "**Escribime PLAN** por mensaje directo y armamos tu plan.\n\nLa **primera hora es sin costo**."
+    }
+  ]
+}

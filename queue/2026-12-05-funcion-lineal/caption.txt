@@ -1,0 +1,18 @@
+Función lineal sin vueltas: y = m · x + b. Guardalo.
+
+m es la pendiente: cuánto sube y cada vez que x avanza 1.
+b es la ordenada: dónde corta la recta al eje y.
+
+Ejemplo: y = 2x + 1
+x = 0 → y = 1
+x = 1 → y = 3
+x = 2 → y = 5
+Cada 1 en x, y sube 2: esa es la pendiente.
+
+Si m es negativa, la recta baja.
+
+Ahora vos: en y = −3x + 4, ¿cuánto vale y cuando x = 2? ¿La recta sube o baja? Dejá tu respuesta en los comentarios.
+
+Soy Nico, profe de Matemática y Física. Si tenés escrito o examen, escribime PLAN por mensaje directo y armamos tu plan: la primera hora es sin costo.
+
+#matematica #funciones #funcionlineal #liceo #examenes #clasesparticulares #profedematematica
